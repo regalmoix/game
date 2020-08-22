@@ -16,6 +16,8 @@
 
 using namespace std;
 
+int score = 0;
+
 template<typename Iter, typename RandomGenerator>
 Iter select_randomly(Iter start, Iter end, RandomGenerator& g) {
     std::uniform_int_distribution<> dis(0, std::distance(start, end) - 1);
@@ -196,6 +198,7 @@ void left (vector<vector<int>>& board, int n)
             if (row[i] == row[i+1])
             {
                 temp2[j] = 2 * row[i];
+                score += 2*row[i];
                 i += 2;
                 j++;
             }
