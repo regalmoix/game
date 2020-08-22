@@ -124,6 +124,10 @@ void printboard(vector<vector<int>>& board, int n)
 
     clear();
 
+    move(5*n, 5*n);
+
+    printw("SCORE : %d", score);
+
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n; j++)
