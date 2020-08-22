@@ -265,25 +265,25 @@ void tilemove (vector<vector<int>>& board, int n)
     switch (dir)
     {
         case UP :   up(board, n);
-                    //addrandom(board);
+                    addrandom(board);
                     consoleprintboard(board, n);
                     printboard(board, n);
                     break;
 
         case DOWN : down(board, n);
-                    //addrandom(board);
+                    addrandom(board);
                     consoleprintboard(board, n);
                     printboard(board, n);
                     break;
 
         case LEFT : left(board, n);
-                    //addrandom(board);
+                    addrandom(board);
                     consoleprintboard(board, n);
                     printboard(board, n);
                     break;
 
         case RIGHT: right(board, n);
-                    //addrandom(board);
+                    addrandom(board);
                     consoleprintboard(board, n);
                     printboard(board, n);
                     break;
