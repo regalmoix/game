@@ -1,3 +1,7 @@
 /game
 /outputfile
 /test
+/*.o
+/src/*.o
+/.vscode
+/*.gch

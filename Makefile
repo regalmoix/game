@@ -11,5 +11,6 @@ all: game
 game:
 	g++ $(CCARGS) -o $(BUILDDIR)/game $(SRCDIR)/main.cpp
 
+
 clean:
 	rm -f game outputfile test
