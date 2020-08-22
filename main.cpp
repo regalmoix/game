@@ -36,6 +36,8 @@ vector<pair<int, int>> emptypos;
 
 void tilemove (vector<vector<int>>& board, int n);
 
+void printgrid (int n);
+
 void rotateMatrix (vector<vector<int>>& mat, int N) 
 { 
     for (int x = 0; x < N / 2; x++) 
@@ -305,6 +307,7 @@ void tilemove (vector<vector<int>>& board, int n)
 
 //represent empty cells with 0;
 
+
 int main()
 {
     int n = 4;
@@ -312,6 +315,8 @@ int main()
     vector<vector<int>> board(n, vector<int> (n,0));
     
     input(board, n);
+
+   
 
     printboard(board, n); 
 
